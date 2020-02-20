@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarb {
+    margin-left: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.hamburger {
+    width: 33px;
+    margin-right: 10px;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 33px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 33px;
+    
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 33px;
+}
+
+h1, h2, h3, p {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 550px) {
+
+.headshot {
+    display: inline-block;
+    float: left;
+}
+
+}
+
+@media only screen and (min-width: 800px) {
+
+.hamburger {
+    display: none;
+}
+
+.menu {
+    display: block;
+    position: absolute;
+    margin-right: 0%;
+}
+
+}
