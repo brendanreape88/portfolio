@@ -30,8 +30,7 @@ li {
     margin-right: 10px;
 }
 
-
-.herodivmobile {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,12 +38,12 @@ li {
     padding: 33px;
 }
 
-.herodivdesktop {
-    display: none;
-}
-
 .headshotmobile {
     width: 300px;
+}
+
+.headshotdesktop {
+    display: none;
 }
 
 .bio {
@@ -66,26 +65,10 @@ li {
 
 h1, h2, h3, p {
     padding: 10px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 550px) {
-
-.herodivmobile {
-    display: none;
-}
-
-.herodivdesktop {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: lightgrey;
-    padding: 33px;
-}
-
-.headshotdesktop {
-    width: 33%;
-    height: 33%
-}
 
 
 }
