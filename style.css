@@ -39,6 +39,14 @@ li {
     padding: 33px;
 }
 
+.headshotdesktop {
+    display: none;
+}
+
+.headshotmobile {
+    width: 300px;
+}
+
 .bio {
     display: flex;
     flex-direction: column;
@@ -62,10 +70,7 @@ h1, h2, h3, p {
 
 @media only screen and (min-width: 550px) {
 
-.headshot {
-    display: inline-block;
-    float: left;
-}
+
 
 }
 
@@ -77,8 +82,7 @@ h1, h2, h3, p {
 
 .menu {
     display: block;
-    position: absolute;
-    margin-right: 0%;
+    margin-right: 10px;
 }
 
 }
