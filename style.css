@@ -31,7 +31,7 @@ li {
 }
 
 
-.hero {
+.herodivmobile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ li {
     padding: 33px;
 }
 
-.headshotdesktop {
+.herodivdesktop {
     display: none;
 }
 
@@ -70,6 +70,22 @@ h1, h2, h3, p {
 
 @media only screen and (min-width: 550px) {
 
+.herodivmobile {
+    display: none;
+}
+
+.herodivdesktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 33px;
+}
+
+.headshotdesktop {
+    width: 33%;
+    height: 33%
+}
 
 
 }
