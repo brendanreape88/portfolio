@@ -13,36 +13,54 @@
             <span class ="navbarb">B</span>
         </div>
         <ul class="menu">
-            <li class="yellowli">bio</li>
-            <li>portfolio</li>
-            <li class="purpleli">github</li>
-            <li>linkedin</li>
+            <li><a class="nav-link bio-link">bio</a></li>
+            <li><a class="nav-link portfolio-link">portfolio</a></li>
+            <li><a href="https://github.com/brendanreape88" class="nav-link">github</a></li>
+            <li><a href="https://www.linkedin.com/in/brendan-reape-77a244a8" class="nav-link">linkedin</a></li>
         </ul>
         <div class="hamburger">
             <img src="images/hamburger.png" class="hamburger" alt="hamburger menu icon">
         </div>
     </nav>
     <main>
+        <div class="max-width-container">
         <header class="hero">
             <div>
                 <img src="images/HeadShotYellow.png" class="headshotdesktop" alt="white square placeholder">
             </div>
-            <div>
-                <h1>Hero txt.</h1>
+            <div class="mobile-hero-box">
+                <h1>Hi, I'm Brendan.</h1>
                 <img src="images/HeadShotYellow.png" class="headshotmobile" alt="whitesquareplaceholder">
-                <h2>More hero txt.</h2>
+                <h2>I'm a Web Developer and life-long learner based in the LA Area.</h2>
             </div>
         </header>
         <section class="bio">
-            <p>Some bio txt here.</p>
+            <h3>ABOUT ME</h3>
+            <p>My interests include technology, music, meditation, education, nature, personal growth, and building things. I pride 
+                myself on my self-discipline and ability to see work as play. To that point, for me, building web apps is just the adult 
+                version of playing with Legos. Instead of building fleats of mini-spacecrat in my bedroom, I'm building robust applications 
+                with real-world implications. HTML, CSS, JavaScript, and jQuery are my go-to blocks.</p>
         </section>
         <section class="portfolio">
             <h3>PORTFOLIO</h3>
-            <p>Image here.</p>
-            <p>Some txt about a thing I made.</p>
-            <p>Links to Live and GitHub</p>
+            <div class="project-box">
+                <h4>Test Your Zenness</h4>
+                <img src="images/Zenness_Screenshot.png" class="portfolioimg" alt="meditation app screenshot">
+                <p>Here's a neat little app that will test your basic knowledge on the practice of meditation. This one was built with HTML, CSS, JavaScript, and jQuery.</p>
+                <span><a class="project-link" href="https://brendanreape88.github.io/QuizAppWireFrames">Live</a> | <a class="project-link" href="https://github.com/brendanreape88/QuizAppWireFrames.git">GitHub</a></span>
+            </div>
+            <div class="project-box">
+                <h4>Get Some Nature</h4>
+                <img src="images/GSN_Screenshot.png" class="portfolioimg" alt="national park finder app screenshot">
+                <p>This app provides you with your nearest national park and lodging options. Works for US cities only. I made this with HTML, CSS, JavaScript, and jQuery.</p>
+                <span><a class="project-link" href="https://brendanreape88.github.io/GetSomeNature">Live</a> | <a class="project-link" href="https://github.com/brendanreape88/GetSomeNature">GitHub</a></span>
+            </div>
         </section>
+        </div>
     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>
