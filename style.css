@@ -9,11 +9,12 @@ html {
 }
 
 body {
-    /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+    /*background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);*/
 }
 
 .navbar {
     background-color: black;
+    /*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);*/
     color: white;
     height: 50px;
     display: flex;
@@ -143,6 +144,11 @@ span, li, p {
 .project-link {
     text-decoration: none;
     color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
