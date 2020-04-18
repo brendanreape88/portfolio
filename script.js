@@ -1,5 +1,5 @@
-$('.hamburger').on('click', function(event){
-  //  $('.mobile-menu-div').toggle(2000);
+$('.hamburger-div').on('click', function(event){
+  $('.mobile-menu-div').toggle(200);
     console.log('CLICKED')
   });
   
