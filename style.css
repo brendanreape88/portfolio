@@ -8,13 +8,8 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  /*background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);*/
-}
-
 .navbar {
   background-color: black;
-  /*background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);*/
   color: white;
   height: 50px;
   display: flex;
@@ -100,7 +95,6 @@ h2 {
   font-weight: 400;
   font-size: 6vw;
   color: rgb(53, 53, 53);
-  /* color: rgb(0, 97, 161); */
 }
 
 h3 {
@@ -168,8 +162,6 @@ a {
 }
 
 a:hover {
-  /* color: #c9a8ff; */
-  /* color: rgb(0, 97, 161); */
   color: rgb(58, 148, 207);
   cursor: default;
 }
