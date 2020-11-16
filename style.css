@@ -98,13 +98,11 @@ h4 {
 
 h1 {
   font-weight: 700;
-  /* font-size: 9vw; */
   font-size: 30px;
 }
 
 h2 {
   font-weight: 400;
-  /* font-size: 6vw; */
   font-size: 20px;
   color: rgb(53, 53, 53);
 }
@@ -181,7 +179,7 @@ a {
 
 a:hover {
   color: rgb(58, 148, 207);
-  cursor: default;
+  cursor: pointer;
 }
 
 .hidden {
@@ -204,11 +202,27 @@ a:hover {
   padding: 8px;
 }
 
-@media only screen and (min-width: 550px) {
-  .headshotmobile {
-    /* width: 400px; */
-  }
+.contact__div {
+  display: flex;
+}
 
+.contact__img {
+  height: 33px;
+  margin: 33px;
+}
+
+.download__div {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.download__img {
+  height: 33px;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 550px) {
   .max-width-container {
     max-width: 650px;
   }
@@ -218,7 +232,6 @@ a:hover {
   }
 
   h1 {
-    /* font-size: 8vw; */
     font-size: 50px;
   }
 
